@@ -4,9 +4,9 @@
 
 body {
     background-image: url(images/pattern-background-desktop.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     background-color: hsl(225, 100%, 94%);
 }
 
@@ -19,14 +19,14 @@ html {
     font-family: 'Red+Hat+Display', sans-serif;
 }
 
-main {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.container {
+.card {
     display: flex;
     border-radius: 20px;
     flex-direction: column;
@@ -38,7 +38,7 @@ main {
     background-color: #fff;
 }
 
-.container img {
+.card img {
     width: 100%;
 }
 
