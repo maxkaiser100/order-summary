@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsl(225, 100%, 94%);
+}
+
+p {
+    margin: 0px;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Red+Hat+Display', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    max-width: 400px;
+    overflow: hidden;
+    justify-content: flex-start;
+    border: 1px solid white;
+    text-align: center;
+    background-color: #fff;
+}
+
+.container img {
+    width: 100%;
+}
+
+.orderText {
+    background-color: #fff;
+    padding: 0 2rem;
+}
+
+.orderText p {
+    color: gray;
+}
+
+.planInfo {
+    background-color: hsl(225, 100%, 98%);
+    margin: 1rem 2.5rem;
+    padding: .5rem 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;  
+}
+
+.planInfo img {
+    width: 3rem;
+    margin: 1rem;
+}
+
+.annualPlan {
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+
+.annualPLanInner {
+    display: flex;
+    flex-direction:column;
+    line-height: 1.5rem;
+}
+
+.change {
+    font-size: smaller;
+}
+
+.change:hover {
+    text-decoration: none;
+}
+
+.proceedButton {
+    background-color: hsl(245deg 71% 51%);
+    color: #fff;
+    margin: .5rem 2.5rem;
+    padding: 1rem 0;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.proceedButton:hover {
+    background-color: hsl(244deg 83% 68%);
+    transition: .3s
+}
+
+.cancelButton {
+    color: gray;
+    margin: .5rem 2.5rem;
+    padding: 1rem 0;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 2.5rem;
+}
+
+.cancelButton:hover {
+    color: black;
+    transition: .3s
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
