@@ -24,6 +24,7 @@ html {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 .card {
@@ -117,5 +118,5 @@ html {
     transition: .3s
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 20px; }
 .attribution a { color: hsl(228, 45%, 44%); }
